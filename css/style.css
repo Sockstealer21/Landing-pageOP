@@ -46,14 +46,13 @@ a {
 .herocont{
     display: flex;
     justify-content: space-between;
-/* centering method for website used due to consistency */    
+/* centering method for website used for consistency */    
     padding: 75px 200px 50px;
-    flex-wrap: wrap;
 }
 
 .hero{
     display: flex;
-    width: 50%;
+    width: 35%;
     flex-flow: row wrap;
 }
 
@@ -63,7 +62,6 @@ a {
     color: #F9FaF8;
     
 }
-
 
 .hero button{
     display: block;
@@ -85,7 +83,37 @@ a {
     
 }
 
-img {
+.imagecont {
     height: 300px;
 }   
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 200px 100px;
+    flex-flow: column;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937; 
+    padding-bottom: 40px;
+}
+
+.infoimgcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+
+.info img {
+    height: 200px;
+}
+
+
 
