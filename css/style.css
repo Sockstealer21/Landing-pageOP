@@ -12,7 +12,6 @@ body {
     background-color: #1F2937;
     color: #F9FaF8;
     display: flex;
-    flex-direction: row;
 /* Makes Logo, Links, Hero section and others touch the edge of their flexboxes */
     justify-content: space-between;
     align-items: center;
@@ -27,23 +26,19 @@ ul{
     gap: 14px;
 }
 
-
-
 li,
 .secondarytext {
 /* gets rid of bullets in the list */
     list-style-type: none;
-    font-size: 18px;
+    font-size: 18px;q
 
 }
-
 
 a {
 /* gets rid of underline for links */
     text-decoration: none;
     color: #E5E7EB;
 }
-
 
 .herocont{
     display: flex;
@@ -119,6 +114,7 @@ a {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
+/* padding values to match up with information section */
     padding: 100px 400px 100px;
 }
 
@@ -127,4 +123,47 @@ a {
     font-weight: bold;
     font-size: 20px;
     justify-content: flex-end;
+}
+
+.signup {
+/* padding values to match up with hero + header section */
+    padding: 100px 200px;
+    display: flex;
+
+}
+
+.actioncont {
+    color: #F9FaF8;
+    background-color: #3882F6;
+    padding: 50px 125px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: ;
+    width: 100%;
+}
+
+.signupcont {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.signup button {
+    display: flex;
+    border: #F9FaF8;
+    border-width: 2px;
+    color: #F9FaF8;
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: bold;
+/* makes the actual border visible with style dependent on value */
+    border-style: solid;
+/* rounds the edges of the button */
+    border-radius: 6px;
+    padding: 8px 30px;
+    height: fit-content;
 }
